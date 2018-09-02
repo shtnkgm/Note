@@ -9,7 +9,7 @@ iOSDC2018に3日間参加したときのメモです。
 # 発表資料まとめ
 [Qiita|iOSDC 2018 セッション資料まとめ](https://qiita.com/winterwind26/items/210e5735d2ce832d0c36)
 
-# 気になったOSSライブラリ
+# 気になったOSS・ライブラリ
 
  - https://github.com/devxoul/Then
  - https://github.com/mercari/Mew
