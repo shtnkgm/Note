@@ -23,3 +23,4 @@ iOSDC2018に3日間参加したときのメモです。
  - https://github.com/ishkawa/iosdc-2018-demo
  - https://github.com/MessageKit/MessageKit
  - https://github.com/muukii/NextGrowingTextView
+ - https://github.com/lucas34/SwiftQueue
