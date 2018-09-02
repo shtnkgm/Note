@@ -21,3 +21,5 @@ iOSDC2018に3日間参加したときのメモです。
  - https://github.com/wantedly/iosdc2018-reactorkit
  - https://github.com/ReactorKit/ReactorKit
  - https://github.com/ishkawa/iosdc-2018-demo
+ - https://github.com/MessageKit/MessageKit
+ - https://github.com/muukii/NextGrowingTextView
