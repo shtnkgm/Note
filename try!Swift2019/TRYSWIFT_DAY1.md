@@ -177,9 +177,23 @@ https://speakerdeck.com/terhechte/introduction-to-swift-keypaths
   - ユーザーにガイダンスUIを表示する
     - 何が起こっているのかわかるように
   
-# Introducing SourceKit-LSP
-
-# Swift Server Update
+# Introducing SourceKit-LSP @izm256
+ - Language Searver Protocol
+ - SourceKit-LSP
+    - Xcode以外のエディタでも補完やコードジャンプできる
+    - エラーやワーニングも
+    - vimで快適にSwiftを書ける 
+  
+# Swift Server Update @tomerdoron
+  - Appleのエンジニアの人
+  - なんでサーバーサイドSwiftなのか
+  - プロダクション環境にも各社で利用されている
+  - OSSもいろいろ出ている
+  - システム全体を観測できること
+    - Tracing
+    - Logging
+    - Metrics
+  - Docker、Xcode、SwiftPMの統合はこれから
 
 # 休憩
 
