@@ -216,7 +216,6 @@ https://speakerdeck.com/terhechte/introduction-to-swift-keypaths
     - https://developer.apple.com/documentation/swift/objective-c_and_c_code_customization/renaming_objective-c_apis_for_swift
 
 # MachObfuscator @kam800
-
   - リバースエンジニアリングの話
     - mach_header_64の構造体
     - Swiftで解釈する
@@ -224,7 +223,22 @@ https://speakerdeck.com/terhechte/introduction-to-swift-keypaths
   - https://github.com/kam800/MachObfuscator
 
 # Siri ShortcutsとNSUserActivityによるエンゲージメント推進 @nictheawesome
-  - 
+  - Siriショートカットの話
+    - ボイスコマンドでより良い体験を提供するには
+    - NSUserActivity = ある時点でのアプリの状態の表現
+  - NSUserActivityインスタンスを受け渡す
+    - 文字列で初期化
+    - titleをつける
+    - isEligibleForPredictionをtrueにする
+    - isEligibleForSearch = true（spotlifgt検索）
+  - Siriのコマンドを割り当てる
+    - IntentsUI
+    - INUIAddVoiceShortcutButton
+      - https://developer.apple.com/documentation/sirikit/inuiaddvoiceshortcutbutton
+    - INUIAddVoiceShortcutViewController
+      - https://developer.apple.com/documentation/sirikit/inuiaddvoiceshortcutviewcontroller
+  - ハンドリングする
+    - UserActivityのactivityTypeでintentを分岐し、処理する
 
 # try Prototype! @mennenia
 
