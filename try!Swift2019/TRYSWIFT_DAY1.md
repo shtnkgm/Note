@@ -136,6 +136,7 @@ try! Swift 1日目
       - mirror.displayStyle
       - mirror.children
       - Siwft4.2はサポートしてない(4.1、5はOK)
+        - mirrorでweakなプロパティを参照をするとRCを増やしてしまう
 
 # PixarのようなグラフィックをSwiftで実現する
 
