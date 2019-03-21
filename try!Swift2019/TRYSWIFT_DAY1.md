@@ -194,6 +194,12 @@ https://speakerdeck.com/terhechte/introduction-to-swift-keypaths
     - Logging
     - Metrics
   - Docker、Xcode、SwiftPMの統合はこれから
+    - https://github.com/apple/swift-package-manager
+  - サーバーワーキンググループについて
+  - @autoclosure でロギング処理を遅延させる
+  - SwiftNIO
+    - Swiftを使ってネットワークアプリケーションを作成するためのフレームワーク
+    - https://github.com/apple/swift-nio
 
 # 休憩
 
