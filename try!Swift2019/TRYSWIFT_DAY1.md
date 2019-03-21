@@ -135,6 +135,7 @@ try! Swift 1日目
       - 循環参照が起きる参照型とそうでない値型を分ける
       - mirror.displayStyle
       - mirror.children
+      - Siwft4.2はサポートしてない(4.1、5はOK)
 
 # PixarのようなグラフィックをSwiftで実現する
 
