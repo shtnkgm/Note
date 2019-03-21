@@ -116,7 +116,25 @@ try! Swift 1日目
 
 # ランチ
 
-# テストケースでMemory Leakを発見する
+# テストケースでMemory Leakを発見する @tarunon
+  - iOSにはガーベジコレクションはない
+    - 参照カウントでメモリ管理を行う
+    - リファレンスがなくなった時にオブジェクトを解放する
+  - どうやって防ぐか
+    - コードレビュー
+    - コーディングルール
+    - Lint
+    - Memory Graph Debugger
+  - テストケースで防ぐ
+    - Mirrorwを利用する
+      - オブジェクトが持っている全てのプロパティを取得できる
+      - トップのオブジェクトを解放したらすべて解放されるはず
+      - weak変数にいれてnilになるかチェック
+    - XCTAssertNoLeakをつくった
+      - https://github.com/tarunon/XCTAssertNoLeak
+      - 循環参照が起きる参照型とそうでない値型を分ける
+      - mirror.displayStyle
+      - mirror.children
 
 # PixarのようなグラフィックをSwiftで実現する
 
