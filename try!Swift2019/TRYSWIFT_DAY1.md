@@ -1,6 +1,7 @@
 # try! Swift 1日目
 
 ## native macOS application、またはAppKitの世界 @1024jp
+https://speakerdeck.com/1024jp/native-macos-application-or-the-world-of-appkit
   - MacOSアプリの開発について
   - ネイティブに振る舞うことはiOSよりも重要
     - ユーザーが物理的なWindowを意識する
@@ -11,14 +12,15 @@
     - 開発者のエゴを殺し、ユーザーには目的に集中させる
   - Marzipanはただのエミュレーターなのでおすすめしない
     - ネイティブフレームワークを使い、OS毎のデザインガイドラインを読むべき
-    
+
 ## 脱Swiftリテラル初心者 @___freddi___
   - 42の数字がコンパイラに解釈されるまで
     - リテラルプロトコル
     - CGFloatは環境によってtyepaliaseを分岐（Float/Double）
-    - コンパイラ組み込みプロトコル（CaseIterbleもそのうちのひとつ） 
+    - コンパイラ組み込みプロトコル（CaseIterbleもそのうちのひとつ）
 
 ## アクセシビリティのためのカラーコントラスト @emarley
+https://raw.githubusercontent.com/emarley/ColorContrast/master/ColorContrast.pdf
   - ユーザーがどうやってユーザーがメッセージを理解するのか
     - テキスト色をどこまで明るくしてもいいのかどうやって知るか
     - 止まれと言う標識は文字が読めなくても赤い色でわかる
@@ -60,7 +62,7 @@
     - テスト
       - テストがされていないコードは不完全なコード
       - 統合テストももちろんやる
-    
+
 ## 限定的なimportの明示とその効果 @noppefoxwolf
   - import文のオプションの話
   - attributes
@@ -96,7 +98,7 @@ https://speakerdeck.com/terhechte/introduction-to-swift-keypaths
   - KeyPathでプロパティへのリンクをつくる
     - 参照したり変更できる
   - KeyPathはネストもできる
-  - 書き込みはWritableKeyPath<Root, Value> 
+  - 書き込みはWritableKeyPath<Root, Value>
   - RefarenceWritableKeyPath<Root, Value>もある（紹介のみ）
   - PartialKeyPath
   - AnyKeyPath（型消去）
@@ -119,6 +121,7 @@ https://speakerdeck.com/terhechte/introduction-to-swift-keypaths
 ## ランチ
 
 ## テストケースでMemory Leakを発見する @tarunon
+https://www.icloud.com/keynote/0v-uQow7QXtpwDMs2CN8LHxiQ#try!swift2019tarunon
   - iOSにはガーベジコレクションはない
     - 参照カウントでメモリ管理を行う
     - リファレンスがなくなった時にオブジェクトを解放する
@@ -176,14 +179,14 @@ https://speakerdeck.com/terhechte/introduction-to-swift-keypaths
     - メインキューにディスパッチする
   - ユーザーにガイダンスUIを表示する
     - 何が起こっているのかわかるように
-  
+
 ## Introducing SourceKit-LSP @izm256
  - Language Searver Protocol
  - SourceKit-LSP
     - Xcode以外のエディタでも補完やコードジャンプできる
     - エラーやワーニングも
-    - vimで快適にSwiftを書ける 
-  
+    - vimで快適にSwiftを書ける
+
 ## Swift Server Update @tomerdoron
   - Appleのエンジニアの人
   - なんでサーバーサイドSwiftなのか
