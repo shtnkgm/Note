@@ -90,6 +90,8 @@ try! Swift 1日目
   - 作ったけどSwiftの型推論が追いつかない、プロダクションコードとしては難あり
 
 # KeyPath入門 @terhechte
+https://speakerdeck.com/terhechte/introduction-to-swift-keypaths
+
   - KeyPath<Root, Value>
   - KeyPathでプロパティへのリンクをつくる
     - 参照したり変更できる
@@ -138,10 +140,43 @@ try! Swift 1日目
       - Siwft4.2はサポートしてない(4.1、5はOK)
         - mirrorでweakなプロパティを参照をするとRCを増やしてしまう
 
-# PixarのようなグラフィックをSwiftで実現する
+# PixarのようなグラフィックをSwiftで実現する @kapsy1312
+  - 光線がどう球体に当たるか
+    - 二次方程式のモデルで表現できる
+      - 判別式
+    - Swiftコードで
+    - どのように見えるか
 
-# ARKitのアプリを作ろう
-
+# ARKitのアプリを作ろう @NamrataCodes
+  - ARKit by Tutorialsという本を共同執筆で出した
+    - PORTAL
+    - ARSKETCH
+  - ベストプラクティス
+    - A9プロセッサ以降、iOS11以降
+    - ARFaceTRackingConfiguration.isSupprted
+    - カメラ利用の許可（plist）
+    - データの扱いをプライバシーポリシーに書く
+  - 実践的なコツ
+    - ARAnchorでポジションを特定する
+      - ズレを補正してくれるので特徴点を使うよりもよい
+    - トラッキングの質
+      - 明るい部屋
+      - 静的な環境を用意する
+      - 表面のテクスチャ
+    - ARCameraオブジェクト
+    - ARTrackingState
+    - ARkit2.0の機能
+      - ARWorldMap
+  - 理想的ではない暗くて動いている環境でもテストする
+    - 平面を検知する時間が遅くなる
+  - カメラとモーション使うので電池使う
+  - ARAnchorの数は使いすぎない
+  - FPSは30推奨
+  - デリゲートコールバックは常にprivate queue
+    - メインキューにディスパッチする
+  - ユーザーにガイダンスUIを表示する
+    - 何が起こっているのかわかるように
+  
 # Introducing SourceKit-LSP
 
 # Swift Server Update
