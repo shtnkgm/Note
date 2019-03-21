@@ -239,6 +239,9 @@ https://speakerdeck.com/terhechte/introduction-to-swift-keypaths
       - https://developer.apple.com/documentation/sirikit/inuiaddvoiceshortcutviewcontroller
   - ハンドリングする
     - UserActivityのactivityTypeでintentを分岐し、処理する
+  - ダメなポイントの紹介
+    - 変なキャッシュを持つ
+    - 全てのショートカットにアクセスできない
 
 # try Prototype! @mennenia
 
