@@ -1,6 +1,6 @@
-try! Swift 1日目
+# try! Swift 1日目
 
-# native macOS application、またはAppKitの世界 @1024jp
+## native macOS application、またはAppKitの世界 @1024jp
   - MacOSアプリの開発について
   - ネイティブに振る舞うことはiOSよりも重要
     - ユーザーが物理的なWindowを意識する
@@ -12,13 +12,13 @@ try! Swift 1日目
   - Marzipanはただのエミュレーターなのでおすすめしない
     - ネイティブフレームワークを使い、OS毎のデザインガイドラインを読むべき
     
-# 脱Swiftリテラル初心者 @___freddi___
+## 脱Swiftリテラル初心者 @___freddi___
   - 42の数字がコンパイラに解釈されるまで
     - リテラルプロトコル
     - CGFloatは環境によってtyepaliaseを分岐（Float/Double）
     - コンパイラ組み込みプロトコル（CaseIterbleもそのうちのひとつ） 
 
-# アクセシビリティのためのカラーコントラスト @emarley
+## アクセシビリティのためのカラーコントラスト @emarley
   - ユーザーがどうやってユーザーがメッセージを理解するのか
     - テキスト色をどこまで明るくしてもいいのかどうやって知るか
     - 止まれと言う標識は文字が読めなくても赤い色でわかる
@@ -40,9 +40,9 @@ try! Swift 1日目
   - すべての人へのアクセシビリティ
     - 明るいところでも暗いところでも
 
-# 休憩    
+## 休憩    
 
-# Swift Light @bugKrusha
+## Swift Light @bugKrusha
   - 3Dレーザープリンタ
     - SVGのデザインからSwiftコースターをつくる
     - アプリでデザインを変更できる
@@ -61,7 +61,7 @@ try! Swift 1日目
       - テストがされていないコードは不完全なコード
       - 統合テストももちろんやる
     
-# 限定的なimportの明示とその効果 @noppefoxwolf
+## 限定的なimportの明示とその効果 @noppefoxwolf
   - import文のオプションの話
   - attributes
     - `@testable`（）
@@ -74,7 +74,7 @@ try! Swift 1日目
     - ビルド時間に効果はなし
     - バイナリサイズにも効果なし
 
-# protocol/extensionにジェネリクスを入れたい @_yyu_
+## protocol/extensionにジェネリクスを入れたい @_yyu_
   - タプルとリスト
     - Anyのリストは取り出した時にキャストが必要で微妙
     - ヘテロジーニアスリストをつくる（HList）
@@ -89,7 +89,7 @@ try! Swift 1日目
     - HAppend、HNilプロトコルをつくる
   - 作ったけどSwiftの型推論が追いつかない、プロダクションコードとしては難あり
 
-# KeyPath入門 @terhechte
+## KeyPath入門 @terhechte
 https://speakerdeck.com/terhechte/introduction-to-swift-keypaths
 
   - KeyPath<Root, Value>
@@ -116,9 +116,9 @@ https://speakerdeck.com/terhechte/introduction-to-swift-keypaths
     - Kuery、CoreDataで文字列クエリを避けられる
     - KeyPathKit、複数の条件でソートする場合に有用
 
-# ランチ
+## ランチ
 
-# テストケースでMemory Leakを発見する @tarunon
+## テストケースでMemory Leakを発見する @tarunon
   - iOSにはガーベジコレクションはない
     - 参照カウントでメモリ管理を行う
     - リファレンスがなくなった時にオブジェクトを解放する
@@ -140,14 +140,14 @@ https://speakerdeck.com/terhechte/introduction-to-swift-keypaths
       - Siwft4.2はサポートしてない(4.1、5はOK)
         - mirrorでweakなプロパティを参照をするとRCを増やしてしまう
 
-# PixarのようなグラフィックをSwiftで実現する @kapsy1312
+## PixarのようなグラフィックをSwiftで実現する @kapsy1312
   - 光線がどう球体に当たるか
     - 二次方程式のモデルで表現できる
       - 判別式
     - Swiftコードで
     - どのように見えるか
 
-# ARKitのアプリを作ろう @NamrataCodes
+## ARKitのアプリを作ろう @NamrataCodes
   - ARKit by Tutorialsという本を共同執筆で出した
     - PORTAL
     - ARSKETCH
@@ -177,14 +177,14 @@ https://speakerdeck.com/terhechte/introduction-to-swift-keypaths
   - ユーザーにガイダンスUIを表示する
     - 何が起こっているのかわかるように
   
-# Introducing SourceKit-LSP @izm256
+## Introducing SourceKit-LSP @izm256
  - Language Searver Protocol
  - SourceKit-LSP
     - Xcode以外のエディタでも補完やコードジャンプできる
     - エラーやワーニングも
     - vimで快適にSwiftを書ける 
   
-# Swift Server Update @tomerdoron
+## Swift Server Update @tomerdoron
   - Appleのエンジニアの人
   - なんでサーバーサイドSwiftなのか
   - プロダクション環境にも各社で利用されている
@@ -204,9 +204,9 @@ https://speakerdeck.com/terhechte/introduction-to-swift-keypaths
     - Swiftを使ってネットワークアプリケーションを作成するためのフレームワーク
     - https://github.com/apple/swift-nio
 
-# 休憩
+## 休憩
 
-# SwiftのアプリでCやC++、Objective-Cのフレームワークを使おう @CeciliaHumlelu
+## SwiftのアプリでCやC++、Objective-Cのフレームワークを使おう @CeciliaHumlelu
 
   - 新しいアプリを作るときは生け花に例えられる
   - mm でC++とObjC両方コンパイルできるようになる
@@ -215,14 +215,14 @@ https://speakerdeck.com/terhechte/introduction-to-swift-keypaths
   - NS_SWIFT_NAMEでSwift用のインタフェースを変更できる
     - https://developer.apple.com/documentation/swift/objective-c_and_c_code_customization/renaming_objective-c_apis_for_swift
 
-# MachObfuscator @kam800
+## MachObfuscator @kam800
   - リバースエンジニアリングの話
     - mach_header_64の構造体
     - Swiftで解釈する
   - プロパティの名前とか見える
   - https://github.com/kam800/MachObfuscator
 
-# Siri ShortcutsとNSUserActivityによるエンゲージメント推進 @nictheawesome
+## Siri ShortcutsとNSUserActivityによるエンゲージメント推進 @nictheawesome
   - Siriショートカットの話
     - ボイスコマンドでより良い体験を提供するには
     - NSUserActivity = ある時点でのアプリの状態の表現
@@ -243,5 +243,16 @@ https://speakerdeck.com/terhechte/introduction-to-swift-keypaths
     - 変なキャッシュを持つ
     - 全てのショートカットにアクセスできない
 
-# try Prototype! @mennenia
+## try Prototype! @mennenia
 
+  - AUTODESK
+    - https://www.autodesk.co.jp/
+  - Why are you a developer?
+  - Who do you write code for?
+  - 何かにYESということは同時にNOと言っていること同じ
+  - What do you do when technology changes?
+  - YOU / THE COMPANY / THE USER
+  - どう学ぶか学びながらリリースする
+  - When writing code, how do you factor in how long it needs to last?
+  - What has held you back from shipping your work?
+  - How often do you test?
