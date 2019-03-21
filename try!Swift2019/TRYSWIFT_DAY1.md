@@ -189,6 +189,9 @@ https://speakerdeck.com/terhechte/introduction-to-swift-keypaths
   - なんでサーバーサイドSwiftなのか
   - プロダクション環境にも各社で利用されている
   - OSSもいろいろ出ている
+    - https://github.com/IBM-Swift/Kitura
+    - https://github.com/amzn/smoke-framework
+    - https://github.com/vapor/vapor
   - システム全体を観測できること
     - Tracing
     - Logging
