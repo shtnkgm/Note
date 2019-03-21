@@ -206,11 +206,18 @@ https://speakerdeck.com/terhechte/introduction-to-swift-keypaths
 
 # 休憩
 
-# SwiftのアプリでCやC++、Objective-Cのフレームワークを使おう
+# SwiftのアプリでCやC++、Objective-Cのフレームワークを使おう @CeciliaHumlelu
 
-# MachObfuscator
+  - 新しいアプリを作るときは生け花に例えられる
+  - mm でC++とObjC両方コンパイルできるようになる
+  - SwiftがCのヘッダーが見えない、module.modulemapを作る
+    - headerにパスを記載、環境変数でmodulemapへのパスを記載
+  - NS_SWIFT_NAMEでSwift用のインタフェースを変更できる
+    - https://developer.apple.com/documentation/swift/objective-c_and_c_code_customization/renaming_objective-c_apis_for_swift
 
-# Siri ShortcutsとNSUserActivityによるエンゲージメント推進
+# MachObfuscator @kam800
 
-# try Prototype!
+# Siri ShortcutsとNSUserActivityによるエンゲージメント推進 @nictheawesome
+
+# try Prototype! @mennenia
 
