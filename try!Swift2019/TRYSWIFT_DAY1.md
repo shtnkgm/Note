@@ -217,7 +217,14 @@ https://speakerdeck.com/terhechte/introduction-to-swift-keypaths
 
 # MachObfuscator @kam800
 
+  - リバースエンジニアリングの話
+    - mach_header_64の構造体
+    - Swiftで解釈する
+  - プロパティの名前とか見える
+  - https://github.com/kam800/MachObfuscator
+
 # Siri ShortcutsとNSUserActivityによるエンゲージメント推進 @nictheawesome
+  - 
 
 # try Prototype! @mennenia
 
