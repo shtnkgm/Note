@@ -42,6 +42,7 @@
     - サポートされていない機能は?  
 
 ## ポートレートモードを自作しよう @koooootake
+https://speakerdeck.com/koooootake/making-portrait-mode-yourself
   - ポケモンマスター
   - DeNAマンガボックスの開発
   - iOSのカメラアプリのポートレートモードで背景ぼかせる
@@ -265,6 +266,8 @@ https://speakerdeck.com/krstnfx/building-a-mobile-design-system
   - アーティストになって人と共鳴できるようなものをつくろう
 
 ## iOS端末を利用した心理学研究の背景と展望 @expensive_man
+
+  - 
 
 ## SwiftCheckで始めるProperty-based Testing @tobi462
 
