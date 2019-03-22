@@ -323,6 +323,17 @@ https://speakerdeck.com/krstnfx/building-a-mobile-design-system
       - 高速なアルゴリズムの検証に低速なアルゴリズムの結果を利用する
 
 ## All about linking libraries @k_katsumi
+  - リンクの問題は様々
+  - 動的リンクと静的リンク
+    - リンクのタイミング
+    - バンドルの有無
+  - フレームワークはmodule.modulemapを持てる
+  - ライブラリにはバンドルがない
+  - ブリッジングヘッダ
+  - Module Map
+  - リンクに関しての中身
+  - Header Search KeyPath
+  - TODO: 追いつけなかったけどすごく良さそうな資料なのであとで資料読む
 
 ## 賢者のString @Ilseman
 
