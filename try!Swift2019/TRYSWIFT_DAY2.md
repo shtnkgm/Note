@@ -33,7 +33,7 @@
       - 創造性を発揮して制約を乗り越える
       - 制約によって本来考えなかった選択肢が登場する
   - 魔法の第三法則
-    - 新しいものを使う前に既に持っているものを拡張する
+    - 新しいものを使う前に既に持っているものを拡張する
     - 隠された深さを探すことはエキサイティング
     - 他の人が見つけていないものを見つけられる
     - 一見単純であり、しかも奥深い
@@ -62,12 +62,12 @@
   - 二人で発表
     - Ian: IBMのテクニカルリード、Swiftコミッター、Kitura（キトラ）の開発
     - David: モバイル開発者、IBMデベロッパーアドボケイト
-  - モバイルバックエンド
+  - モバイルバックエンド
     - Standalone
     - MBaaS
     - Bespoke（サーバーサイドSwift）
   - Microservices
-    - コンパイル済みバイナリなので起動が早い
+    - コンパイル済みバイナリなので起動が早い
     - Javaなどよりメモリ使用量が少ない（コスト削減になる）
     - 相互互換性
   - 一例
@@ -75,7 +75,7 @@
   - docker/HELM/kubernetes
   - OPENAPIは何してくれるか
     - Kituraが自動生成したAPIドキュメント
-    - OPENAPIのエコシステムが強み
+    - OPENAPIのエコシステムが強み
     - Swift Server Working Group（SSWG）
     - Language Server Protocol（LSP）
   - 本を書いたよ「Server Side Siwft with Kitura」
@@ -84,12 +84,12 @@
     - Xcodeを利用せずにアプリをビルドする
     - シミュレーターで実行
     - VSCodeでLSPを利用したコーディング、自動コード補完
-    - OPENAPIのAPIドキュメントを見る
-    - OPENAPIUI
-    - サーバーのデバッグが簡単にできる
+    - OPENAPIのAPIドキュメントを見る
+    - OPENAPIUI
+    - サーバーのデバッグが簡単にできる
     - WebSocket技術を利用、アプリとブラウザでリアルタイムに更新される
-  - 本番系で使えるの？
-    - onlineswiftplayground.runでKituraが使われている
+  - 本番系で使えるの？
+    - onlineswiftplayground.runでKituraが使われている
       - http://onlineswiftplayground.run/
     - www.agenda.comもKitura
       - https://www.agenda.com/
