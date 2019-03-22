@@ -128,6 +128,7 @@
   - 全体構成
 
 ## SwiftSyntax で便利を実現する基礎 @orga_chem
+https://speakerdeck.com/orgachem/how-to-use-swiftsyntax-for-better-productivity-japanese-version
   - SwiftSyntaxで静的検査やコード生成ができる
     - https://github.com/apple/swift-syntax
   - コードを読み書きしやすいデータにする
@@ -175,6 +176,7 @@
     - 大いなる力には大いなる責任が伴う
 
 ## モバイルのデザインシステムを構築する @krstnfx
+https://speakerdeck.com/krstnfx/building-a-mobile-design-system
   - デザインシステムとは
     - 一連のコンポーネントを再利用するための仕組み
     - レゴブロック
