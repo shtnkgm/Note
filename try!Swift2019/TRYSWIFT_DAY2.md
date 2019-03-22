@@ -336,6 +336,30 @@ https://speakerdeck.com/krstnfx/building-a-mobile-design-system
   - TODO: 追いつけなかったけどすごく良さそうな資料なのであとで資料読む
 
 ## 賢者のString @Ilseman
+  - Appleのエンジニア
+  - Swift Standard Libraries
+  - 日本語で自己紹介
+  - Stringとは何か
+    - いろんなひとにどんな風に使っているのか聞いた
+    - 「一次元のオブジェクトで時空を超えるもの」
+    - Unicodeを意味あるものにする
+  - Stringの哲学
+  - なんで難しいのか
+    - Unicodeは互換性があるのがいいところ
+    - Stringは複雑性を加えてしまっている
+  - Characterの集合
+  - よいデフォルト
+  - Graphemes（言葉を表すために使われる書かれた記号）
+    - Graphemesの有無で文字数が変わってきてしまう
+  - 文字の順序は国によって異なる、コンテキストによっても変わる
+  - マシンが行う順序付け
+    - 場所やコンテキストによらず一貫している必要がある
+    - 数学的な利点が必要
+    - 高速
+  - Stringの進化の歴史
+    - Swift3 -> Swift5
+  - 今後のはなし
+  - オツカレサマデス
 
 ## 休憩
 
