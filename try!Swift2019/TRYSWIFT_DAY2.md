@@ -59,6 +59,44 @@
     - https://github.com/koooootake/Portrait-without-Depth-ios
 
 ## Swiftでソーシャルネットワークをつくろう @dokun24
+  - 二人で発表
+    - Ian: IBMのテクニカルリード、Swiftコミッター、Kitura（キトラ）の開発
+    - David: モバイル開発者、IBMデベロッパーアドボケイト
+  - モバイルバックエンド
+    - Standalone
+    - MBaaS
+    - Bespoke（サーバーサイドSwift）
+  - Microservices
+    - コンパイル済みバイナリなので起動が早い
+    - Javaなどよりメモリ使用量が少ない（コスト削減になる）
+    - 相互互換性
+  - 一例
+    - Allegro
+  - docker/HELM/kubernetes
+  - OPENAPIは何してくれるか
+    - Kituraが自動生成したAPIドキュメント
+    - OPENAPIのエコシステムが強み
+    - Swift Server Working Group（SSWG）
+    - Language Server Protocol（LSP）
+  - 本を書いたよ「Server Side Siwft with Kitura」
+  - Demo
+    - EmojiJournal
+    - Xcodeを利用せずにアプリをビルドする
+    - シミュレーターで実行
+    - VSCodeでLSPを利用したコーディング、自動コード補完
+    - OPENAPIのAPIドキュメントを見る
+    - OPENAPIUI
+    - サーバーのデバッグが簡単にできる
+    - WebSocket技術を利用、アプリとブラウザでリアルタイムに更新される
+  - 本番系で使えるの？
+    - onlineswiftplayground.runでKituraが使われている
+      - http://onlineswiftplayground.run/
+    - www.agenda.comもKitura
+      - https://www.agenda.com/
+    - ドイツのIoTバンキング
+      - https://bankingofthings.io/
+    - CPU/RAMの消費量も悪くないというグラフ
+  - http://ibm.biz/trykitura
 
 ## 休憩
 
