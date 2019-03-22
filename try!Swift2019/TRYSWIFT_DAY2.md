@@ -141,6 +141,38 @@
   - これ面白そう！
 
 ## Swift type metadata @kateinoigakukun
+  - Swiftの型のメタデータについて
+  - 静的型付けだが、実はランタイムで動的な部分がある
+    - 例えばクラス名の取得部分
+  - 型.Type型の情報（型.selfで取得）
+    - CustomStringConvertibleには準拠してないはず
+  - オープンソースなのでソースコードをみてみる
+    - SwiftCore
+    - SwiftRuntime
+    - @_silgen_name リンク時につけられる関数の名前
+    - メタデータに含まれる型名を取り出す関数
+    - Metadata > Nominal Type descriptor > Type Name
+    - SwiftコードでMetadataを実装してみる
+      - Relativeポインタ（参照先アドレスへのオフセット）
+      - サブタイプ関係がないのでunsafeBitCastを使う
+  - メタデータのユースケース
+    - インスタンスのアロケート
+    - ダイナミックメソッドディスパッチ
+    - リフレクション
+  - Method Swizzling（ObjC黒魔術）
+    - クラスのメソッドはVTableという関数ポインタで取得
+    - 関数ポインタを入れ替える
+  - OSSでのMetadataを利用した事例
+    - https://github.com/Zewo/Reflection
+    - https://github.com/wickwirew/Runtime
+    - https://github.com/alibaba/HandyJSON
+    - https://github.com/kateinoigakukun/StubKit
+      - 引数なしで任意のインスタンスを生成
+  - 注意
+    - Siwft4.2ではABIの安定性なし（メタデータの構造が変わる）
+    - Swift5で安定性が確立
+    - SwizzlingはSwiftの型の最適化で元に戻ってしまうことがある
+    - 大いなる力には大いなる責任が伴う
 
 ## モバイルのデザインシステムを構築する @krstnfx
 
