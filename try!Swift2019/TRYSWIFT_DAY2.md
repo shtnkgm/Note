@@ -101,6 +101,31 @@
 ## 休憩
 
 ## Swift Hardware Hacking @mostgood
+  - Geany（IDE、Swiftは非対応）
+  - v2ではユーザー認証とコンセント電源に対応
+  - 回路についてのお話
+    - ラズベリーパイ
+    - GPIO(General-purpose input/output)
+    - SwiftyGPIOというライブラリを使う
+      - https://github.com/uraimo/SwiftyGPIO
+    - Relayはスイッチ
+    - デジタル信号、電圧でオンオフ、1 = 3.3v / 0 = 0v
+    - アナログ信号
+    - MCP3008（8チャネルのA-Dコンバータ）
+  - 光の量で開いてるかしまっているかを検知 
+  - 荷重センサーで金額を計算する（抵抗値の変化）
+    - HX711
+    - アナログ信号は0/1だけではない
+    - アナログ信号をどうデジタル信号にするか
+      - バイナリ
+      - 12bitなど情報の長さを決めておく
+        - 24bitなら24回ループして1bitずつ読み込む
+  - Bluetooth（BLE）
+    - Central（iOS）とPeripheral（ラズパイ）
+    - GATT Profile
+      - https://www.bluetooth.com/ja-jp/specifications/gatt/generic-attributes-overview
+    - CoreBluetooth
+  - 全体構成
 
 ## SwiftSyntax で便利を実現する基礎 @orga_chem
 
