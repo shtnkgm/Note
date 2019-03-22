@@ -282,6 +282,45 @@ https://speakerdeck.com/krstnfx/building-a-mobile-design-system
   - 楽しい操作とかをエンジニア間などよりオープンなコミュニティで発展させたい 
 
 ## SwiftCheckで始めるProperty-based Testing @tobi462
+  - DeNAのSWETエンジニア
+    - 自己紹介まで英語でチャレンジ
+    - Pengin-mura
+  - Property-based Testingとは
+    - 性質を定義
+    - ランダム値でテスト
+  - Example-based Testing（普通のテスト）
+    - 具体的な入出力で検証
+    - 検証パターンはどのくらい必要?
+      - 現実的には入力値は無限、どうやって選ぶ?
+      - 境界値分割、同値分割
+  - Property-based Testingでは性質に着目
+    - reversed
+      - 反転してもサイズは変わらない
+      - 2回適用すると元に戻る
+      - これはどんな配列でも満たす性質
+  - ランダムな配列を生成し、先ほどの性質を満たすか検証
+  - SwiftCheck
+    - https://github.com/typelift/SwiftCheck
+    - property関数
+    - forAll関数（Boolを返すクロージャ）
+    - Arbitrary
+      - ランダム値を生成するプロトコル
+      - プリミティブ型のarbitraryプロパティから独自型も準拠できる
+    - Shrinking
+      - Arbitraryのshurink関数
+      - テストに失敗したらより小さな値でテスト
+      - 最小の失敗ケースがレポートされる
+      - 原因調査が楽になる
+  - ユースケース
+    - ランダム性のあるアルゴリズムに対するテスト
+      - 迷路の生成
+        - 性質: 迷路はいつもゴールにたどり着けるべき
+    - 対象性のあるアルゴリズムに対するテスト
+      - エンコードとデコード
+    - 高速なアルゴリズムと低速なアルゴリズム
+      - 一般的に高速なアルゴリズムは複雑
+      - しかし、両者の結果は同じはず
+      - 高速なアルゴリズムの検証に低速なアルゴリズムの結果を利用する
 
 ## All about linking libraries @k_katsumi
 
