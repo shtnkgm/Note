@@ -167,14 +167,58 @@
     - https://github.com/wickwirew/Runtime
     - https://github.com/alibaba/HandyJSON
     - https://github.com/kateinoigakukun/StubKit
-      - 引数なしで任意のインスタンスを生成
+      - 引数なしで任意のインスタンスを生成
   - 注意
-    - Siwft4.2ではABIの安定性なし（メタデータの構造が変わる）
-    - Swift5で安定性が確立
-    - SwizzlingはSwiftの型の最適化で元に戻ってしまうことがある
+    - Siwft4.2ではABIの安定性なし（メタデータの構造が変わる）
+    - Swift5で安定性が確立
+    - SwizzlingはSwiftの型の最適化で元に戻ってしまうことがある
     - 大いなる力には大いなる責任が伴う
 
 ## モバイルのデザインシステムを構築する @krstnfx
+  - デザインシステムとは
+    - 一連のコンポーネントを再利用するための仕組み
+    - レゴブロック
+  - どうやったら個々のコンポーネントに分解できるのか
+    - Atomic Web Designのブログ
+  - 誰のため?
+    - デザイナー、エンジニア、ユーザー
+    - デザインの時間を減らす
+    - 開発時間を減らす、コードの再利用
+    - 同じような振る舞いで早い時間で理解できる
+  - どのようなアプリに向いてる?
+    - 反復するデザイン、ブランドの統一 
+    - Airbnb
+      - https://airbnb.design/building-a-visual-language/
+    - Lyft
+  - オススメの記事
+    - https://medium.freecodecamp.org/how-to-build-a-design-system-with-a-small-team-53a3276d44ac
+  - フォントと色
+    - コードでカスタムフォント、カラーを定義するところから
+    - タイポグラフィシステム
+      - enumで列挙
+    - ColorAsset
+      - enumかAssetフォルダで名前をつける
+      - 私のチームではハイブリッド型
+  - UI controllers
+    - UISwitch
+    - 独自クラス（ブランドスタイルに合わせて色や形状が違うもの）
+  - UI Components
+    - APIデザインも重要、どんなエンジニアでも使えるように
+    - アプリ内での一貫性
+    - enumのstyleを切り替える
+  - View Components
+    - TableViewのセル
+    - テキストフィールド
+    - デザインシステムの構築は企業やチームに特化すべき
+  - 最後に組み合わせる
+    - https://github.com/airbnb/epoxy
+    - これはまだAndroid用(Kotlin)  
+  - デザインシステムを作るとき
+    - Documentationをつくる
+      - Googleのマテリアルデザインは包括的なドキュメントになっている
+    - エンジニアとデザイナーがうまくコミュニケーションを取る
+    - オーバーエンジニアリングはダメ
+      - 必ずしも作らなくてもいい
 
 ## ランチ
 
