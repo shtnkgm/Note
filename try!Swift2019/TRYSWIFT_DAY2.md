@@ -360,6 +360,10 @@ https://speakerdeck.com/krstnfx/building-a-mobile-design-system
     - Swift3 -> Swift5
   - 今後のはなし
   - オツカレサマデス
+  - ...endIndex
+
+> 結構疲れた
+> おれはメモをやめるぞ！ジョジョーーッ！！
 
 ## 休憩
 
