@@ -178,22 +178,22 @@
 
 ## ランチ
 
-## iOS端末を利用した心理学研究の背景と展望
+## iOS端末を利用した心理学研究の背景と展望 @expensive_man
 
-## SwiftCheckで始めるProperty-based Testing
+## SwiftCheckで始めるProperty-based Testing @tobi462
 
-## All about linking libraries
+## All about linking libraries @k_katsumi
 
-## 賢者のString
+## 賢者のString @Ilseman
 
 ## 休憩
 
-## アセンブリ、君ならできる！
+## アセンブリ、君ならできる！ @armadsen
 
-## Swiftコンパイラにコントリビュートする
+## Swiftコンパイラにコントリビュートする @kitasuke
 
-## Core Dataを守るために
+## Core Dataを守るために @DonnyWals
 
-## 次へつなごう— Extending a hand to the next generation of Apple developers
+## 次へつなごう— Extending a hand to the next generation of Apple developers @hellomayuko
 
 ## Party
