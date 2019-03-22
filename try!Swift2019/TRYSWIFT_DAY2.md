@@ -125,9 +125,20 @@
     - GATT Profile
       - https://www.bluetooth.com/ja-jp/specifications/gatt/generic-attributes-overview
     - CoreBluetooth
-  - 全体構成
+  - 全体構成
 
 ## SwiftSyntax で便利を実現する基礎 @orga_chem
+  - SwiftSyntaxで静的検査やコード生成ができる
+    - https://github.com/apple/swift-syntax
+  - コードを読み書きしやすいデータにする
+    - if文は条件と複文からなる
+    - Optional束縛条件
+    - 木構造
+    - 構文木
+    - オレオレSwiftLintが作れる
+  - コード生成
+    - SwiftSyntaxのRenameRewriterクラスで書き換え
+  - これ面白そう！
 
 ## Swift type metadata @kateinoigakukun
 
