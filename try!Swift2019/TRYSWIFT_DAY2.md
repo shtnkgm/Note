@@ -224,7 +224,7 @@ https://speakerdeck.com/krstnfx/building-a-mobile-design-system
 
 ## ランチ
 
-## Swiftにおける音の成形
+## Swiftにおける音の成形 @b3ll
  - 
 
 ## iOS端末を利用した心理学研究の背景と展望 @expensive_man
