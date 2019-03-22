@@ -332,7 +332,7 @@ https://speakerdeck.com/krstnfx/building-a-mobile-design-system
   - ブリッジングヘッダ
   - Module Map
   - リンクに関しての中身
-  - Header Search KeyPath
+  - Header Search Path
   - TODO: 追いつけなかったけどすごく良さそうな資料なのであとで資料読む
 
 ## 賢者のString @Ilseman
