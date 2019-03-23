@@ -60,6 +60,7 @@ https://speakerdeck.com/koooootake/making-portrait-mode-yourself
     - https://github.com/koooootake/Portrait-without-Depth-ios
 
 ## Swiftでソーシャルネットワークをつくろう @dokun24
+https://speakerdeck.com/dokun1/building-a-social-network-in-swift
   - 二人で発表
     - Ian: IBMのテクニカルリード、Swiftコミッター、Kitura（キトラ）の開発
     - David: モバイル開発者、IBMデベロッパーアドボケイト
@@ -113,7 +114,7 @@ https://speakerdeck.com/koooootake/making-portrait-mode-yourself
     - デジタル信号、電圧でオンオフ、1 = 3.3v / 0 = 0v
     - アナログ信号
     - MCP3008（8チャネルのA-Dコンバータ）
-  - 光の量で開いてるかしまっているかを検知 
+  - 光の量で開いてるかしまっているかを検知
   - 荷重センサーで金額を計算する（抵抗値の変化）
     - HX711
     - アナログ信号は0/1だけではない
@@ -143,6 +144,7 @@ https://speakerdeck.com/orgachem/how-to-use-swiftsyntax-for-better-productivity-
   - これ面白そう！
 
 ## Swift type metadata @kateinoigakukun
+https://speakerdeck.com/kateinoigakukun/swift-type-metadata
   - Swiftの型のメタデータについて
   - 静的型付けだが、実はランタイムで動的な部分がある
     - 例えばクラス名の取得部分
@@ -189,7 +191,7 @@ https://speakerdeck.com/krstnfx/building-a-mobile-design-system
     - 開発時間を減らす、コードの再利用
     - 同じような振る舞いで早い時間で理解できる
   - どのようなアプリに向いてる?
-    - 反復するデザイン、ブランドの統一 
+    - 反復するデザイン、ブランドの統一
     - Airbnb
       - https://airbnb.design/building-a-visual-language/
     - Lyft
@@ -226,6 +228,7 @@ https://speakerdeck.com/krstnfx/building-a-mobile-design-system
 ## ランチ
 
 ## Swiftにおける音の成形 @b3ll
+https://github.com/b3ll/try-swift-2019/blob/master/Presentation.pdf
   - シンセサイザー
     - Roland Juno-60
     - Prophet-5
@@ -282,6 +285,7 @@ https://speakerdeck.com/krstnfx/building-a-mobile-design-system
   - 楽しい操作とかをエンジニア間などよりオープンなコミュニティで発展させたい 
 
 ## SwiftCheckで始めるProperty-based Testing @tobi462
+https://speakerdeck.com/yusukehosonuma/property-based-test-beginning-with-swiftcheck
   - DeNAのSWETエンジニア
     - 自己紹介まで英語でチャレンジ
     - Pengin-mura
@@ -323,6 +327,7 @@ https://speakerdeck.com/krstnfx/building-a-mobile-design-system
       - 高速なアルゴリズムの検証に低速なアルゴリズムの結果を利用する
 
 ## All about linking libraries @k_katsumi
+https://www.icloud.com/keynote/0DUVHIOqCGr5bbgaMstvqqTZA#Katsumi_Kishikawa_-_All_about_linking_libraries
   - リンクの問題は様々
   - 動的リンクと静的リンク
     - リンクのタイミング
@@ -370,6 +375,7 @@ https://speakerdeck.com/krstnfx/building-a-mobile-design-system
 ## アセンブリ、君ならできる！ @armadsen
 
 ## Swiftコンパイラにコントリビュートする @kitasuke
+https://www.slideshare.net/kitasuke/contributing-to-swift-compiler
 
 ## Core Dataを守るために @DonnyWals
 

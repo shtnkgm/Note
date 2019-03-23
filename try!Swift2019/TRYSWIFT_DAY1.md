@@ -14,6 +14,7 @@ https://speakerdeck.com/1024jp/native-macos-application-or-the-world-of-appkit
     - ネイティブフレームワークを使い、OS毎のデザインガイドラインを読むべき
 
 ## 脱Swiftリテラル初心者 @___freddi___
+https://freddi.dev/resources/AkiYuki%20-%20Deep%20Dive%20into%20Swift%20Literal.pdf
   - 42の数字がコンパイラに解釈されるまで
     - リテラルプロトコル
     - CGFloatは環境によってtyepaliaseを分岐（Float/Double）
@@ -64,6 +65,7 @@ https://raw.githubusercontent.com/emarley/ColorContrast/master/ColorContrast.pdf
       - 統合テストももちろんやる
 
 ## 限定的なimportの明示とその効果 @noppefoxwolf
+https://speakerdeck.com/noppefoxwolf/tryswift2019
   - import文のオプションの話
   - attributes
     - `@testable`（）
@@ -77,6 +79,7 @@ https://raw.githubusercontent.com/emarley/ColorContrast/master/ColorContrast.pdf
     - バイナリサイズにも効果なし
 
 ## protocol/extensionにジェネリクスを入れたい @_yyu_
+https://y-yu.github.io/try-swift-slide/tryswift.pdf
   - タプルとリスト
     - Anyのリストは取り出した時にキャストが必要で微妙
     - ヘテロジーニアスリストをつくる（HList）
@@ -144,6 +147,7 @@ https://www.icloud.com/keynote/0v-uQow7QXtpwDMs2CN8LHxiQ#try!swift2019tarunon
         - mirrorでweakなプロパティを参照をするとRCを増やしてしまう
 
 ## PixarのようなグラフィックをSwiftで実現する @kapsy1312
+https://tryswifttokyo2019.slack.com/messages/CDV58A5AQ/files/FH6NCL1HS/
   - 光線がどう球体に当たるか
     - 二次方程式のモデルで表現できる
       - 判別式
@@ -151,6 +155,7 @@ https://www.icloud.com/keynote/0v-uQow7QXtpwDMs2CN8LHxiQ#try!swift2019tarunon
     - どのように見えるか
 
 ## ARKitのアプリを作ろう @NamrataCodes
+https://speakerdeck.com/namrata/so-you-want-to-build-an-arkit-app-appdevcon
   - ARKit by Tutorialsという本を共同執筆で出した
     - PORTAL
     - ARSKETCH
@@ -181,6 +186,7 @@ https://www.icloud.com/keynote/0v-uQow7QXtpwDMs2CN8LHxiQ#try!swift2019tarunon
     - 何が起こっているのかわかるように
 
 ## Introducing SourceKit-LSP @izm256
+https://speakerdeck.com/rizumi/introducing-sourcekit-lsp
  - Language Searver Protocol
  - SourceKit-LSP
     - Xcode以外のエディタでも補完やコードジャンプできる
