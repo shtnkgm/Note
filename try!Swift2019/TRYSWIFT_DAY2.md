@@ -237,18 +237,18 @@ https://github.com/b3ll/try-swift-2019/blob/master/Presentation.pdf
     - オシレーター（波をつくるもの）
       - アンプリチュード（音の大きさ）
       - 周波数（Hz、波の数、音程）
-      - 波形（三角、矩形、sawtooth...）
+      - 波形（三角、矩形、sawtooth...）
          - 矩形は01なので説明しやすい
          - コンピューターっぽい音
     - エンベロープ
   - CoreAudio
-    - 音作って出すまでやることがたくさん
+    - 音作って出すまでやることがたくさん
   - AudioKit
     - https://github.com/AudioKit/AudioKit
     - パルス幅の変更
     - ADSR（アタック、ディケイ、サステイン、リリース）
       - 音量がどう変化するか
-      - 音の立ち上がり、減衰、持続、フェードアウトのこと
+      - 音の立ち上がり、減衰、持続、フェードアウトのこと
       - 同じ音でも聞こえ方が変わってくる
     - Effect、音自体を変える
       - フィルター
@@ -271,7 +271,7 @@ https://github.com/b3ll/try-swift-2019/blob/master/Presentation.pdf
 ## iOS端末を利用した心理学研究の背景と展望 @expensive_man
   - VALUのiOSエンジニア
   - 心理学
-    - 刺激に対する反応を観察してその相関関係を調べる
+    - 刺激に対する反応を観察してその相関関係を調べる
     - 反応までの時間
     - 反応の頻度
     - マルチタッチスクリーン
@@ -282,7 +282,7 @@ https://github.com/b3ll/try-swift-2019/blob/master/Presentation.pdf
     - タップ操作
     - ぐるっと回す操作
     - スワイプ角度
-  - 楽しい操作とかをエンジニア間などよりオープンなコミュニティで発展させたい 
+  - 楽しい操作とかをエンジニア間などよりオープンなコミュニティで発展させたい
 
 ## SwiftCheckで始めるProperty-based Testing @tobi462
 https://speakerdeck.com/yusukehosonuma/property-based-test-beginning-with-swiftcheck
@@ -309,7 +309,7 @@ https://speakerdeck.com/yusukehosonuma/property-based-test-beginning-with-swiftc
     - forAll関数（Boolを返すクロージャ）
     - Arbitrary
       - ランダム値を生成するプロトコル
-      - プリミティブ型のarbitraryプロパティから独自型も準拠できる
+      - プリミティブ型のarbitraryプロパティから独自型も準拠できる
     - Shrinking
       - Arbitraryのshurink関数
       - テストに失敗したらより小さな値でテスト
@@ -348,15 +348,15 @@ https://www.icloud.com/keynote/0DUVHIOqCGr5bbgaMstvqqTZA#Katsumi_Kishikawa_-_All
     - いろんなひとにどんな風に使っているのか聞いた
     - 「一次元のオブジェクトで時空を超えるもの」
     - Unicodeを意味あるものにする
-  - Stringの哲学
+  - Stringの哲学
   - なんで難しいのか
     - Unicodeは互換性があるのがいいところ
     - Stringは複雑性を加えてしまっている
   - Characterの集合
   - よいデフォルト
   - Graphemes（言葉を表すために使われる書かれた記号）
-    - Graphemesの有無で文字数が変わってきてしまう
-  - 文字の順序は国によって異なる、コンテキストによっても変わる
+    - Graphemesの有無で文字数が変わってきてしまう
+  - 文字の順序は国によって異なる、コンテキストによっても変わる
   - マシンが行う順序付け
     - 場所やコンテキストによらず一貫している必要がある
     - 数学的な利点が必要
