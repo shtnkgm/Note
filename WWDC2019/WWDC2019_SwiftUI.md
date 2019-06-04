@@ -19,6 +19,14 @@ https://developer.apple.com/tutorials/swiftui/creating-and-combining-views
 ドキュメント
 https://developer.apple.com/documentation/swiftui/
 
+```
 @State
+```
+
+```
 some
+```
+
+```
 import SwiftUI
+```
