@@ -14,7 +14,9 @@ accessibility
 
 チュートリアル
 https://developer.apple.com/tutorials/swiftui/
-https://developer.apple.com/tutorials/swiftui/creating-and-combining-views
+
+ - [x] https://developer.apple.com/tutorials/swiftui/creating-and-combining-views
+ - [x] https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation
 
 ドキュメント
 https://developer.apple.com/documentation/swiftui/
