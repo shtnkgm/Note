@@ -77,9 +77,81 @@
     - Opaque Result Types（some）
     - Property Wrapper Types（@propertyWrapper）
     - DSLs
-      - HTMLオブジェクト
+      -  
       - closureとメソッド呼び出しで構造を記述
       - 制御構文も記述可能  
       - @HTMLBuuilder
       
-# Introducing SwiftUI: Building Your First App
+# 204_Introducing SwiftUI: Building Your First App
+
+  - StackにEmbedしたりできる
+  - GUI操作で角丸にする
+  - コマンドクリックでExtractViewが便利そう
+  - 画像のリサイズもImage ResizeのGUIから、コードなら.resizable()
+  - Previewでナビゲーションをチェックしたい場合、NavigationView { } でくくる 
+  - @State / @Binding / @EnvironmentObject
+  - tapAction { }でタップ時の処理を記述
+  - withAnimation { }でアニメーションを有効にする
+  - HStack、VStack、ZStack
+  - Group { }で複数のプレビューを表示
+  - BindableObject、@ObjectBinding
+  - NavigationView { } 
+  - List { }
+  - Section { }
+  - ForEach() { }
+  - onDelete(perform:)
+  - onMove(perform:)
+  - listStyle(.grouped)
+  - environment(\.colorScheme: .dark)
+    - sizeCategory
+    - locale
+    - layoutDirection
+    
+ - INMediaIntent
+ - INAdd
+ - INSearchForMediIntent
+ 
+# SWIFT Open Lab
+ 
+ @_exported import Core
+ 
+ *** Terminating app due to uncaught exception 'RLMException', reason: 'Primary key property 'name' does not exist on object 'RealmSwiftPermissionRole''
+ 
+# 209_What's New in Machine Learning
+ 
+  - CreateML
+    - CreateMLでの画像分類のデモ
+      - Developer Toolから開ける
+      - 65個の5種類の花の画像
+      - Augumentation（前からあるやつ）
+      - 前よりGUIが使いやすくなったかも
+    - 音声分類
+      - ギターなのか拍手なのか
+    - アクティビティ分類
+    - テキスト分類
+    - Word Tagger
+    - Tabular Classifier
+    - Recommender
+  - Domain APIs
+    - Image Saliency
+      - Document Cameraのサンプル
+    - Natural Language
+      - 感情分析
+      - Word Embeddings
+    - Speech and Sound
+      - オフライン音声認識
+    - 組み合わせ
+      - 類義語検索
+    - On Deviceのメリット
+    - CoreML3
+      - Model Flexibility
+        - Instance Segmentation
+        - TensolFlowとONNXからのコンバーター
+      - Model Personalization
+        - FaceIDも同じようにパーソナライズされている
+        - My Dog
+        - サーバーベースのアプローチはプライバシーの問題あり
+        - コストもかかる
+        - On Deviceのアプローチ
+        
+# 704_Core ML 3 Framework
