@@ -67,4 +67,19 @@
     - String
  - SourceKit
     - Language Server Protocol
-    - https://github.com/apple/sourcekit-lsp
+    - oss: https://github.com/apple/sourcekit-lsp
+ - Swift言語とスタンダードライブラリ
+    - https://github.com/apple/swift-evolution
+    - Implicit Return
+    - structの一部のプロパティでの初期化
+    - SIMD型（固定長ベクトル、行列）、SIMDMask
+    - StringInterpolation（ExpressibleByStringInterpolation）
+    - Opaque Result Types（some）
+    - Property Wrapper Types（@propertyWrapper）
+    - DSLs
+      - HTMLオブジェクト
+      - closureとメソッド呼び出しで構造を記述
+      - 制御構文も記述可能  
+      - @HTMLBuuilder
+      
+# Introducing SwiftUI: Building Your First App
