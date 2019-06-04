@@ -5,13 +5,13 @@ apple card summer
 apple tv+
 apple originalの動画コンテンツ？
 
-tvOS
+## tvOS
 マルチユーザーのサポート
 Apple Music
 歌詞のシンクロ表示
 ゲーム用にxbox、play stationのコントローラが使えるように
 
-Apple Watch
+## Apple Watch
 watchOS
 ケビン
 Watch faces
@@ -41,7 +41,7 @@ iOSでも使える
 コンプリケーションのカスタマイズ
 ウォッチバンドの新しい色
 
-iOS 13
+## iOS 13
 face id 30パーセント早く
 アプリの起動速度が2倍に
 ダークモード
@@ -101,7 +101,7 @@ siri ショートカット
 ニューラルTTS
 text to speech 
 
-iPad
+## iPad
 iPadOS
 ウィジットをスワイプ
 ビューをドラッグ
@@ -122,7 +122,7 @@ Fonts
 3本指操作、カットペースト、Undo
 ペンシルキットAPI
 
-Mac
+## Mac
 新しいMac Pro
 28コア
 1.5テラバイト
