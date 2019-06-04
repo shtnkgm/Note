@@ -49,3 +49,22 @@
     - Metalのトレース分析が10倍に
     
 # 402_What's New in Swift
+
+ - Binary Frameworks
+    - ABIモジュールスタビリティ
+    - Application Binary Interface
+    - これがないと同じコンパイラでビルドされている必要がある
+    - Swift5以降であればバラバラのコンパイルでOK
+    - Module Stabilityとは
+    - .swiftinterface,（modue interfaceファイル）
+    - Module + ABI Stability = Binary Frameworks
+ - Swift Package Manager
+ - パフォーマンス
+    - Shared Swift Runtime
+    - 起動時間のオーバーヘッドはゼロ
+    - コードサイズも10%〜15%削減される
+    - SiwftとObjective-Cのブリッジ処理も高速化
+    - String
+ - SourceKit
+    - Language Server Protocol
+    - https://github.com/apple/sourcekit-lsp
