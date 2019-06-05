@@ -162,10 +162,12 @@ Safariの最初の画面
 プロジェクトカタリスト
 アトラシアン
 
-RealityKit
+RealityKit framework
 https://developer.apple.com/documentation/realitykit
 
-Reality Composer 
+Reality Composer App
+https://developer.apple.com/augmented-reality/reality-composer/
+
 ARKit3
 ピープルオクルージョン
 モーションキャプチャー
