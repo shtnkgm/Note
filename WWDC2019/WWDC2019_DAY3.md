@@ -65,13 +65,33 @@
   - PrecisionとRecall（PR曲線）
   - デモはサンプルコードがあるのでチェック 
 
-# 215_Advances in Collection View Layout
+# 216_SwiftUI Essentials
 
 - 要約
+  - Bindingの構文(@State）、詳しくはDataFLowのセッションで
+  - 1つの目的のViewを小さく作って大きなViewをCompositionでつくる
+  - .font（.subheadline）などのModifier関数は全てsome Viewを返す仕組み
+  - Form {}やSection {} でくくるとセクションありのTableViewっぽくなる
+  - Controlは環境に適応して見た目が変化するように作られているので、見た目ではなく目的を記述する
+  - Voice Overにも自動で対応している
+  - Picker
+  - https://developer.apple.com/documentation/swiftui/picker
+  - FormとPickerの組み合わせ
 
 - 感想
+  - SwiftUIチュートリアルやっていたので新しい知識が得られなかった
+  - Viewを小さく分割することはパフォーマンスにも影響する?
+  - 見た目でなく目的で実装しているのiOS、TVOS、MacOS、WatchOSなど各OSで最適化されたデザインになっているのがすごい
+  - 再利用が効くのでOS展開の敷居が低くなった
 
 - メモ
+  - VStack、HStackのTrailing Closureは@ViewBuilderアノテーションが付いている
+  - ViewBuilder自体はstruct
+  - https://developer.apple.com/documentation/swiftui/viewbuilder
+  - Viewプロトコル
+  - https://developer.apple.com/documentation/swiftui/view
+  - State structは@propertyDelegateが指定されている
+  - https://developer.apple.com/documentation/swiftui/state
 
 # 220_Advances in UI Data Sources
 
