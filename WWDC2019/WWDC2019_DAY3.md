@@ -130,12 +130,12 @@
   - プロジェクトファイルとxcshareddata > swiftpmに差分が出るのでgitでバージョン管理できる
   - SPMパッケージの構成ファイルの説明（manifestファイル、Sources、Tests）
   - Swift5からのPackageDescriptionをimportしてマニフェストをswiftで記述する
-  - Semantic Versioning
-    - Major Version
-    - 
-    - Patch Version
+  - バージョン番号の付け方→Semantic Versioningに応じてどのようにバージョン管理をするか
+    - 次のメジャーバージョン未満
+    - 次のマイナーバージョン未満
 
 - 感想
+  - CococaPods/Carthageのようにビルド速度に影響する?
 
 - メモ
 
