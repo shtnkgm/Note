@@ -2,7 +2,7 @@
 
 # 406_Create ML for Object Detection and Sound Classification
 
- - 要約
+ - 内容
     - CreateMLでオブジェクト検知と音声分類をする話
     - オブジェクト検知
       - 画像分類は有名、さらに画像内の複数のオブジェクトを検知したい
@@ -41,7 +41,7 @@
 
 # 222_Understanding Images in Vision Framework
 
-- 要約
+- 内容
   - 人の目を引くもの（顔や目、コントラスト、水平、ライトなど）とオブジェクトセグメンテーションのSaliencyがある
   - Heatmap情報は実はとても小さなCVPixelBuffer
   - Bounding BoxやHeatmapをVision Frameworkで取得できる
@@ -67,7 +67,7 @@
 
 # 216_SwiftUI Essentials
 
-- 要約
+- 内容
   - Bindingの構文(@State）、詳しくはDataFLowのセッションで
   - 1つの目的のViewを小さく作って大きなViewをCompositionでつくる
   - .font（.subheadline）などのModifier関数は全てsome Viewを返す仕組み
@@ -98,7 +98,7 @@
 
 # 220_Advances in UI Data Sources
 
-- 要約
+- 内容
   - セルの差分更新を行った時に整合性が合わない時のクラッシュ問題を解消する新しいアプローチ
   - Diffable Data Source
   - 自動でアニメーションもつけられる
@@ -124,16 +124,21 @@
 
 # 408_Adopting Swift Packages in Xcode
 
-- 要約
+- 内容
   - Xcode11からSPMに直接アクセスできるように
   - SPMでパッケージを導入するデモ
   - プロジェクトファイルとxcshareddata > swiftpmに差分が出るのでgitでバージョン管理できる
   - SPMパッケージの構成ファイルの説明（manifestファイル、Sources、Tests）
   - Swift5からのPackageDescriptionをimportしてマニフェストをswiftで記述する
-  - バージョン番号の付け方→Semantic Versioningに応じてどのようにバージョン管理をするか
-    - 次のメジャーバージョン未満
-    - 次のマイナーバージョン未満
-
+  - 依存関係の解決方法の詳細
+    - バージョン番号の付け方→Semantic Versioningに応じてどのようにバージョン管理をするか
+      - up to next major / 次のメジャーバージョン未満
+      - up to nect minor / 次のマイナーバージョン未満
+  - 依存ライブラリのアップデート
+    - Package.resolvedに解決したライブラリのハッシュが記録される
+  - パッケージのコンフリクトを解決する
+    - 
+    
 - 感想
   - CococaPods/Carthageのようにビルド速度に影響する?
 
@@ -141,7 +146,7 @@
 
 # 
 
-- 要約
+- 内容
 
 - 感想
 
