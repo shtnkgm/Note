@@ -115,7 +115,7 @@
 
 - 感想
   - SwiftUIが発表された中、UIKitのセッションだが実用的な内容でプロダクトにも反映できそう
-  -  
+  - アニメーションが自動なのも良い
 
 - メモ
   - https://developer.apple.com/documentation/uikit/views_and_controls/collection_views/using_collection_view_compositional_layouts_and_diffable_data_sources?changes=latest_minor
