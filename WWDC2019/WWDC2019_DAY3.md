@@ -79,6 +79,7 @@
   - FormとPickerの組み合わせ
   - accentColorやdisableなど共通の設定を親のViewに指定することで一括設定できる
   - Environmentは下のViewに継承される
+  - saturation
 
 - 感想
   - Viewを小さく分割することはパフォーマンスにも影響する?
