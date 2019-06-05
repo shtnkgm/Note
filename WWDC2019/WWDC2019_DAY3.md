@@ -125,6 +125,23 @@
 # 408_Adopting Swift Packages in Xcode
 
 - 要約
+  - Xcode11からSPMに直接アクセスできるように
+  - SPMでパッケージを導入するデモ
+  - プロジェクトファイルとxcshareddata > swiftpmに差分が出るのでgitでバージョン管理できる
+  - SPMパッケージの構成ファイルの説明（manifestファイル、Sources、Tests）
+  - Swift5からのPackageDescriptionをimportしてマニフェストをswiftで記述する
+  - Semantic Versioning
+    - Major Version
+    - 
+    - Patch Version
+
+- 感想
+
+- メモ
+
+# 
+
+- 要約
 
 - 感想
 
