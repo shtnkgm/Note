@@ -147,8 +147,6 @@ error: no variable named 'class' found in this frame
 error: no variable named 'class' found in this frame
 (lldb) fr v cls
 (Class) cls = RealmSwiftPermissionRole
-(lldb) [down ]
-error: '[down' is not a valid command.
 (lldb) down
 frame #1: 0x000000010980adbe Realm`::+[RLMObjectSchema schemaForObjectClass:](self=<unavailable>, _cmd=<unavailable>, objectClass=<unavailable>) at RLMObjectSchema.mm:164:13 [opt]
    161 	        }
