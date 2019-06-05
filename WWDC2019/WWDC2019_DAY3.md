@@ -77,9 +77,10 @@
   - Picker
   - https://developer.apple.com/documentation/swiftui/picker
   - FormとPickerの組み合わせ
+  - accentColorやdisableなど共通の設定を親のViewに指定することで一括設定できる
+  - Environmentは下のViewに継承される
 
 - 感想
-  - SwiftUIチュートリアルやっていたので新しい知識が得られなかった
   - Viewを小さく分割することはパフォーマンスにも影響する?
   - 見た目でなく目的で実装しているのiOS、TVOS、MacOS、WatchOSなど各OSで最適化されたデザインになっているのがすごい
   - 再利用が効くのでOS展開の敷居が低くなった
