@@ -143,13 +143,12 @@
 
 - メモ
 
-# 
+# Lab
 
-- 内容
+パフォーマンスLabでGCDのパフォーマンスに関する質問をした
 
-- 感想
-
-- メモ
+過去の参考になりそうなセッション
+https://developer.apple.com/videos/play/wwdc2017/706/
 
 
 # 
