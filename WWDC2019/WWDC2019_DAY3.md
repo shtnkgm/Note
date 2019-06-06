@@ -151,10 +151,32 @@
 https://developer.apple.com/videos/play/wwdc2017/706/
 
 
-# 
+# 223_Expanding the Sensory Experience with Core Haptics
 
 - 内容
+  - iOS13でCore Haptic APIが利用できるようになった
+  - サッカーボールを蹴った時のCauseとEffect
+  - Confirmationの音
+  - Harmony
+    - 現実世界のようにデジタルの世界でもVisual、Audio、Hapticを組み合わせる
+    - タイミングのSynchronizationも重要
+  - WatchのクラウンのHaptic
+  - Utility
+    - ARでも対象に近づくにつれて音を大きくすると（タイマー音など）
+  - 3つの原則
+    - Causality
+    - Harmonu
+    - Utility
+  - Hapticの付け方
+    - ピーク音に合わせる
+    - ソフトな音は連続的に変化させる方法も
+    - 明確なルールはない
+    - Hapticを先に動かして音声を後に流す手法もある
 
 - 感想
+  - 技術的なAPIの話はなかったので参加するセッションを間違えた、Hapticでもいろんな種類があることはわかった
+  - デザインよりのセッションだったので感覚的な内容が多くて理解が深まらなかった
+  - どうやらHapticフィードバックを連続的に実行できるようになったっぽい
+  
 
 - メモ
