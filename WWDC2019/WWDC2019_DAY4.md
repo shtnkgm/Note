@@ -102,23 +102,92 @@
 - 感想
   - ARコンテンツをアプリで作れるだけでも面白そう
   - アプリ内でプレビューもできるので、ARとしてどう見えるか確認しやすい
-  - 
   
 - メモ
 
-# 
+# 407_Create ML for Activity, Text, and Recommendations
 
 - 内容
+  - テキスト分類
+    - 感情分析
+    - スパム
+    - トピック
+  - テキスト分類の転移学習デモ
+    - ディレクトリ名のラベルは絵文字でもOK
+    - 転移学習は時間がかかる（5分はかからない？）
+    - Outputに入力すると、入力中でもリアルタイムで判定される
+  - 転移学習とは?
+    - 学習済みモデルを利用する
+    - 昨年の画像分類だけでなくテキスト分類でも可能に
+    - セマンティックな文章解析が可能
+  - Tips
+    - ユースケースにあったアルゴリズムを選ぶこと
+      - Advances in Natural Language Frameworkのセッションで説明
+    - クラスのバランス
+    - データの一貫性（文章の長さなど）
+  - アクティビティ分類
+    - Jogging/Standing/Gesture/Gaming/Golf/Swimming...
+    - Apple Watchでのフリスビーのモーション分類のデモ
+    - CoreMotionのデータを利用
+    - 1.1MBのモデルサイズしかない
+  - モデルの学習方法
+    - CSVデータから学習
+    - Prediction Window Size（モーションの長さによって決める）
+    - PrecisionとRecallの値からさらに学習すべきか判断する
+    - Output
+  - Recommender
+    - これを買い忘れてませんか？の候補を出す
+    - レシピと食材
+    - Trail / Rating
+    - カラムの種類: Group / Item / Rating
+    - ハイキングに行った場所と評価を入力するアプリのデモ
+    - Itemの関連性を学び、関連性グラフを構築する
+    - CSVかJSONファイルから学習する
+    - データがセキュアであることを保証する必要がある
+    - ラボは金曜2時~
 
 - 感想
+  - テキスト分類はすぐ使えそう
+  - アクティビティ分類の場合のデータの集め方がわからなかった
+  - Reccomenderは学習の仕方のイメージがつかなかったのでまずは触ってみる
 
 - メモ
 
-# 
+# 232_Advances in Natural Language Framework
 
 - 内容
+  -  テキスト分類
+    - 感情分析
+      - -1 ~ +1の値で評価
+      - NLTagger / tagSchemeを.sentimentScoreにする
+      - レビューの内容によってレビューの入力テキストの色をリアルタイムで変化させる 
+  - ワードタギング
+    - 人の名前、場所、名詞など文章の単語にタグ付けする
+    - TextCatalog
+    - NLGazetter
+    - tagSchemeを.nameTypeOrLexicalClassにする
+  - Word Embedding 
+    - Wordをベクター表現にマッピング
+    - ベクター空間へのマッピングと同様
+    - 写真アプリではこれを使ってあいまい検索可能に（FUzzy Search）
+    - OS組み込み（日本語のサポートは現在なし）
+    - カスタマイズとして組み込みの情報以外から取得することも可能
+      - word2vec/GloVe/fasttext/Custom Neural Network
+    - API
+      - NLEmbedding（言語を選択）
+      - enumerateNeighbors
+      - MLWordEmbedding（カスタムWord Embedding）
+    - Podcast Embeddings
+      - レコメンドシステムのEmbedding
+  - テキスト分類のための転移学習
+    - アノテーション付き学習データ
+    - より小さいアノテーション付き学習データと学習済みモデルを組み合わせる
+    - より小さいアノテーション付き学習データとWord Embeddingを組み合わせる
+    - どちらを選択するかAPIで指定が可能
+    - dynamicEmbeddingはニューラルネットワークを利用する
 
 - 感想
+  - 
 
 - メモ
 
