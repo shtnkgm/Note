@@ -154,7 +154,7 @@ https://developer.apple.com/videos/play/wwdc2017/706/
 # 223_Expanding the Sensory Experience with Core Haptics
 
 - 内容
-  - iOS13でCore Haptic APIが利用できるようになった
+  - iOS13でCore Haptics APIが利用できるようになった
   - サッカーボールを蹴った時のCauseとEffect
   - Confirmationの音
   - Harmony
@@ -172,11 +172,29 @@ https://developer.apple.com/videos/play/wwdc2017/706/
     - ソフトな音は連続的に変化させる方法も
     - 明確なルールはない
     - Hapticを先に動かして音声を後に流す手法もある
-
+  - UIFeedbackGeneratorのAPIも改善されている
+  - AR体験にもHapticは有効
+  - API
+    - CHHapticEvent / Time, Type, Parameterを持つ
+    - CHHapticPattern
+    - CHHapticPatternPlayer
+    - HapticTransient
+    - HapticContinous / AudioContinous / Audio CUstom
+    - HapticIntensity
+    - HapticSharpness（やわらかいフィードバックか固いかフィードバックか）
+  - サンプルアプリ: Palette
+  - 最初のHaptics
+    - エンジンとプレイヤーのstart、stopの推奨フロー
+  - AHAP: Apple Haptic Audio Pattern 
+    - JSON形式のHapticパターンを表現したファイル
+    - コードとコンテンツを分離
+  - HIG for hapticsにガイドラインを書いた
+    
 - 感想
-  - 技術的なAPIの話はなかったので参加するセッションを間違えた、Hapticでもいろんな種類があることはわかった
-  - デザインよりのセッションだったので感覚的な内容が多くて理解が深まらなかった
+  - 技術的なAPIの話はなかったので参加するセッションを間違えたと思ったが後半は技術的な話だった
+  - 前半はデザインよりのセッションだったので感覚的な内容が多くて理解が深まらなかった
+  - Hapticでもいろんな種類があることはわかった
   - どうやらHapticフィードバックを連続的に実行できるようになったっぽい
-  
+  - Haptic Sampler的なアプリを作ったらHapticの種類の違いがわかりやすいかも、と思ったらあるらしい
 
 - メモ
