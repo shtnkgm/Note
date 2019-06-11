@@ -125,10 +125,11 @@
 
 ## Mac
  - 新しいMac Pro
- - 28コア
- - 1.5テラバイト
- - 2GPU
- - 6Kディスプレイ
+    - 28コア
+    - 1.5テラバイト
+    - 2GPU
+ - Apple Pro Display XDR
+    - 6Kディスプレイ
  - Pro Stand
  - 秋
  - 本体5999ドルから
