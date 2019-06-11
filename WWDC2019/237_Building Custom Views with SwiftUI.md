@@ -1,7 +1,14 @@
 # 237_Building Custom Views with SwiftUI
 
 - 内容
-   - 親Viewから子Viewのレイアウト処理の流れ
+   - レイアウト処理の基本
+      - 親Viewは子Viewに対してサイズを提案する
+      - 子は自身のサイズを選択する
+        - Image("hoge").frame(width: 50, height: 10)
+        - Image("hoge").aspectRation(1)
+        - Text("hoge")
+      - 親Viewは子Viewを親Viewの座標空間に配置する
+      - SwiftUIは座標を最も近いピクセルに丸める
    - HStackのViewのレイアウト方向はロケールによって自動で変わる
    - Stackがどのようにレイアウトを行うか
    - Viewのレイアウトの優先度
