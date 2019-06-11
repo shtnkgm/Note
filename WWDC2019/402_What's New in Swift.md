@@ -1,0 +1,62 @@
+# 402_What's New in Swift
+
+ - Binary Frameworks
+    - ABIモジュールスタビリティ
+    - Application Binary Interface
+    - これがないと同じコンパイラでビルドされている必要がある
+    - Swift5以降であればバラバラのコンパイルでOK
+    - Module Stabilityとは
+    - .swiftinterface,（modue interfaceファイル）
+    - Module + ABI Stability = Binary Frameworks
+ - Swift Package Manager
+ - パフォーマンス
+    - Shared Swift Runtime
+    - 起動時間のオーバーヘッドはゼロ
+    - コードサイズも10%〜15%削減される
+    - SiwftとObjective-Cのブリッジ処理も高速化
+    - String
+ - SourceKit
+    - Language Server Protocol
+    - oss: https://github.com/apple/sourcekit-lsp
+ - Swift言語とスタンダードライブラリ
+    - https://github.com/apple/swift-evolution
+    - Implicit Return
+    - structの一部のプロパティでの初期化
+    - SIMD型（固定長ベクトル、行列）、SIMDMask
+    - StringInterpolation（ExpressibleByStringInterpolation）
+    - Opaque Result Types（some）
+    - Property Wrapper Types（@propertyWrapper）
+    - DSLs
+      -  
+      - closureとメソッド呼び出しで構造を記述
+      - 制御構文も記述可能  
+      - @HTMLBuuilder
+
+# 204_Introducing SwiftUI: Building Your First App
+
+  - StackにEmbedしたりできる
+  - GUI操作で角丸にする
+  - コマンドクリックでExtractViewが便利そう
+  - 画像のリサイズもImage ResizeのGUIから、コードなら.resizable()
+  - Previewでナビゲーションをチェックしたい場合、NavigationView { } でくくる
+  - @State / @Binding / @EnvironmentObject
+  - tapAction { }でタップ時の処理を記述
+  - withAnimation { }でアニメーションを有効にする
+  - HStack、VStack、ZStack
+  - Group { }で複数のプレビューを表示
+  - BindableObject、@ObjectBinding
+  - NavigationView { }
+  - List { }
+  - Section { }
+  - ForEach() { }
+  - onDelete(perform:)
+  - onMove(perform:)
+  - listStyle(.grouped)
+  - environment(\.colorScheme: .dark)
+    - sizeCategory
+    - locale
+    - layoutDirection
+
+ - INMediaIntent
+ - INAdd
+ - INSearchForMediIntent

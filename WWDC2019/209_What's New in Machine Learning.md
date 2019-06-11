@@ -1,0 +1,36 @@
+# 209_What's New in Machine Learning
+
+  - CreateML
+    - CreateMLでの画像分類のデモ
+      - Developer Toolから開ける
+      - 65個の5種類の花の画像
+      - Augumentation（前からあるやつ）
+      - 前よりGUIが使いやすくなったかも
+    - 音声分類
+      - ギターなのか拍手なのか
+    - アクティビティ分類
+    - テキスト分類
+    - Word Tagger
+    - Tabular Classifier
+    - Recommender
+  - Domain APIs
+    - Image Saliency
+      - Document Cameraのサンプル
+    - Natural Language
+      - 感情分析
+      - Word Embeddings
+    - Speech and Sound
+      - オフライン音声認識
+    - 組み合わせ
+      - 類義語検索
+    - On Deviceのメリット
+    - CoreML3
+      - Model Flexibility
+        - Instance Segmentation
+        - TensolFlowとONNXからのコンバーター
+      - Model Personalization
+        - FaceIDも同じようにパーソナライズされている
+        - My Dog
+        - サーバーベースのアプローチはプライバシーの問題あり
+        - コストもかかる
+        - On Deviceのアプローチ

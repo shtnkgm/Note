@@ -1,0 +1,30 @@
+# 704_Core ML 3 Framework
+
+ - CoreML2や機械学習の知識が必要なセッション
+ - On Device Model Personalization
+    - MLFeatureProvider
+    - MLBatchProvider（訓練データ）
+    - MLUpdateTask
+    - Updateできる部分とできない部分
+    - MLModelConfiguration
+ - バックグラウンドタスク
+    - BGTaskScheduler
+    - BGProcessingTaskRequest
+ - Neural Networks
+    - グラフの別の表現はコード
+    - CoreML3制御構文を持てるように
+    - 100+Layer
+    - コードでモデルを指定する
+ - Q&A App
+    - ドキュメントを読まなくても答えを教えてくれるアプリ
+    - NeXTの歴史について
+    - Who start Next?
+    - 質問（SpeechToText）→文章にハイライト→読み上げ（TextToSpeech）
+    - オフラインで実行可能
+    - BERT Model
+ - その他の新機能
+    - 抽象概念のモデルはLinked ModelとしてでModelの容量を減らす
+    - URLやCGImageで直接画像を読み込めるように
+    - MLModelConfiguration
+      - prefferdMetalDevice
+      - allowLowPrecisionAccumulationOnGPU
