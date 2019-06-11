@@ -1,0 +1,39 @@
+# 226_Data Flow Through SwiftUI
+
+- 内容
+  - DataFlowの原則
+    - データとは何か
+    - Dependencyとしてのデータアクセス
+    - Source of Truth（マスターとなるデータソースは?）
+      - 重複するデータソースはNG
+      - 複数のViewで利用するデータは親のViewに持たせる
+      - Viewはstructなのでvarでもプロパティの変更はできない
+      - Property Wrapperの`@State`を利用する（privateをつけるのを推奨）
+  - Updateの仕組み
+    - 全ての@StateはSource of Truth
+    - Viewはstateのfunction、イベントのシーケンスではない
+    - User -> Action -> State -> View -> User ...
+    - `@Binding`
+      - owenershipなしでread/write
+    - ViewControllerはもう必要ない   
+  - データを理解する
+  - 外部データを利用する
+    - Combine Publisher
+    - BindableObject Protocol
+      - var didChange = PassthroungSubject<Void, Never>()
+      - didChange.send() // サブスクライバに変更を通知する
+      - `@objectBinding`のDependencyをViewに作る
+      - 自動でDependencyのトラッキングをし、同期は不要になる
+    - 間接的にDependencyをつくる
+      - Property Wrapperの`@EnvironmentObject`を利用する
+      - 観察的に参照できるので、Dependency Injectionは不要
+      - アクセントカラー、文字の方向、Dark Mode、などなど色々用途はある
+    - Source of Truthとなる`@State`とBindableObjectの違い
+    - `@Binding`のプロパティにアクセスするには$が必要
+    - Stateを効果的に利用できるケース
+    - Source of Truthは最小にする
+- 感想
+  - SwiftUIのデータに関する、求めていた内容のセッション
+  - いまいち理解が深まらなかったので動画をもう一度見たい
+
+- メモ
