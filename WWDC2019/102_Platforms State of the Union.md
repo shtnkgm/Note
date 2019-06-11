@@ -1,0 +1,47 @@
+# 102_Platforms State of the Union
+
+ - SwiftUI
+ - ライブデモ
+ - ABI Stability
+ - Github
+ - Editors
+ - Source Editing
+ - ミニマップ
+ - ドキュメンテーションのメンテ同期
+ - コードレビューモード
+ - 変更前のコード
+ - Testing
+ - TestPlans
+ - Result Bundles
+ - App Metrics
+ - TestFlight Feedback
+ - SF Symbols
+ - Undo Redo
+ - UITextInteraction
+ - Allow Once
+ - AllowOnly While Using
+ - アプリが利用したプライバシー情報の履歴
+ - Real User Indicator
+ - CoreML
+ - Image saliency
+ - Text recognition
+ - Word embeddings
+ - 何か
+ - Speech saliency
+ - モデルのパーソナライズ
+ - バックグラウンド更新
+ - CreateML
+ - 音声からも学習が可能
+ - リアルタイムで評価
+ - Lumen
+ - ノイジーブックのデモ
+ - Siriショートカット
+ - コンバセーショナルショートカット
+ - ARKit
+ - ARQuickLookにApple Pay搭載
+ - ピープルオクルージョン
+ - モーションキャプチャー
+ - メタル
+ - iOSシミューレーターサポート
+ - メタル用メモリデバッガ
+ - Metal Compute
