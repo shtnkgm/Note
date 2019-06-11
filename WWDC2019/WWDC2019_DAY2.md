@@ -10,7 +10,7 @@
     - Windowとタブ移動のショートカット
     - 全画面でのフォーカスモード
     - ミニマップ
-      - Findでの文字列検索と連動
+      - Findでの文字列検索と連動
     - Add Documentation（元から）
       - typoの修正も連動
     - Show Changeでインラインdiff
@@ -35,7 +35,7 @@
     - Dark Modeでの画像、色の切り替え（Asset）
     - Environment Overrides（実行時にDynamicTypeやアクセシビリティ設定を変更可能）
  - デバッグ
-    - Device Condition
+    - Device Condition
  - Testing
     - Test Plan
     - 複数言語でのローカライズテスト
@@ -56,7 +56,7 @@
     - これがないと同じコンパイラでビルドされている必要がある
     - Swift5以降であればバラバラのコンパイルでOK
     - Module Stabilityとは
-    - .swiftinterface,（modue interfaceファイル）
+    - .swiftinterface,（modue interfaceファイル）
     - Module + ABI Stability = Binary Frameworks
  - Swift Package Manager
  - パフォーマンス
@@ -78,7 +78,7 @@
     - Property Wrapper Types（@propertyWrapper）
     - DSLs
       -  
-      - closureとメソッド呼び出しで構造を記述
+      - closureとメソッド呼び出しで構造を記述
       - 制御構文も記述可能  
       - @HTMLBuuilder
       
@@ -122,9 +122,9 @@
   - CreateML
     - CreateMLでの画像分類のデモ
       - Developer Toolから開ける
-      - 65個の5種類の花の画像
+      - 65個の5種類の花の画像
       - Augumentation（前からあるやつ）
-      - 前よりGUIが使いやすくなったかも
+      - 前よりGUIが使いやすくなったかも
     - 音声分類
       - ギターなのか拍手なのか
     - アクティビティ分類
@@ -139,10 +139,10 @@
       - 感情分析
       - Word Embeddings
     - Speech and Sound
-      - オフライン音声認識
+      - オフライン音声認識
     - 組み合わせ
-      - 類義語検索
-    - On Deviceのメリット
+      - 類義語検索
+    - On Deviceのメリット
     - CoreML3
       - Model Flexibility
         - Instance Segmentation
@@ -159,7 +159,7 @@
  - CoreML2や機械学習の知識が必要なセッション
  - On Device Model Personalization
     - MLFeatureProvider
-    - MLBatchProvider（訓練データ）
+    - MLBatchProvider（訓練データ）
     - MLUpdateTask
     - Updateできる部分とできない部分
     - MLModelConfiguration
@@ -168,7 +168,7 @@
     - BGProcessingTaskRequest 
  - Neural Networks
     - グラフの別の表現はコード
-    - CoreML3制御構文を持てるように 
+    - CoreML3制御構文を持てるように 
     - 100+Layer
     - コードでモデルを指定する
  - Q&A App
@@ -179,8 +179,8 @@
     - オフラインで実行可能
     - BERT Model
  - その他の新機能
-    - 抽象概念のモデルはLinked ModelとしてでModelの容量を減らす
+    - 抽象概念のモデルはLinked ModelとしてでModelの容量を減らす
     - URLやCGImageで直接画像を読み込めるように
     - MLModelConfiguration
-      - prefferdMetalDevice
+      - prefferdMetalDevice
       - allowLowPrecisionAccumulationOnGPU
