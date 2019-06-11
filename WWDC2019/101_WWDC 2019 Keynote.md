@@ -135,8 +135,7 @@
  - 本体5999ドルから
  - ディスプレイ4999ドル
 
-# MacOS
- - Catalina
+# macOS Catalina
  - iTunes
  - AppleTV
  - 4KHDR
@@ -172,7 +171,7 @@ https://developer.apple.com/augmented-reality/reality-composer/
  - ARKit3
  - ピープルオクルージョン
  - モーションキャプチャー
- - マインクラフトのデモ
+ - Minecraft Earthのデモ
 
  - Swift
  - SwiftUIフレームワーク
