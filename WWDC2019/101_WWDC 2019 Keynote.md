@@ -168,17 +168,17 @@
 
  - RealityKit framework
     - https://developer.apple.com/documentation/realitykit
-    - 
 
  - Reality Composer App
     - https://developer.apple.com/augmented-reality/reality-composer/
     - Macアプリ、iOSアプリとして提供
 
- - ARKit3
+ - ARKit3 framework
     - People Occulusion（ARオブジェクトが人物の裏側に回り込む）
     - Motion Capture（人物の動きの検知）
     - Minecraft Earthのデモ
 
- - Swift
-    - SwiftUIフレームワーク
-    - 宣言的
+ - SwiftUI framework
+    - 新しいUIフレームワーク
+    - 宣言的なコーディング
+    - レイアウト、ダークモード、アクセシビリティ、右横書き言語のサポートや国際化など、非常に多くの自動機能を提供
