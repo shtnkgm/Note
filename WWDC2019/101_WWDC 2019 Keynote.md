@@ -10,13 +10,24 @@
     - コントロールセンターでのユーザー切り替え
  - Apple Music
      - 歌詞のシンクロ表示
- - ゲーム用にxbox、play stationのコントローラが使えるように
+     - カラオケっぽい感じで今歌っている箇所が強調される
+ - ゲーム用にXbox、PS4のコントローラが使えるように
 
 ## WatchOS 6
  - Watch faces
- - 色、アニメーション、新しいデザイン
+    - 新しい文字盤の追加
+    - 色、アニメーション、新しいデザイン
+    - Gradient
+    - Large Numerals
+    - Digital Face
+    - California
+    - Solar Face
+    - 写真: https://www.gizmodo.jp/2019/06/apple-watch-watch-face.html
+ - Taptic Chimes
+    - 時報機能の追加
+    - 毎時音がなる
+    - デモではアップルパークで録音した鳥の鳴き声
  - デジタルクラウンと同期して動く？
- - アップルパークで録音して鳥の鳴き声
  - Audiobooksアプリ
  - iOSで元々利用できたが、Watchでも利用できるようになったアプリ
     - ボイスメモ
